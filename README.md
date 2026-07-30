@@ -1,68 +1,251 @@
-# Prosper HRIS & Operations Dashboard
+<p align="center">
+<img src="assets/banner.png" width="100%">
+</p>
 
-A portfolio case study for an internal HRIS and operations platform built to centralize staff workflows, role-based access, monitoring, attendance/time data, reports, documents, and administrative functions.
+<h1 align="center">
+Prosper HRIS & Operations Dashboard
+</h1>
 
-> **Portfolio case study only.** Company source code and internal data are intentionally excluded.
+<p align="center">
 
-## What I worked on
+Enterprise Workforce Management Platform
 
-- Built and refined frontend pages and reusable workflow components.
-- Developed and integrated Node.js/Express REST APIs.
-- Implemented Firebase authentication and role-based authorization.
-- Worked with MongoDB Atlas and Mongoose models.
-- Added staff workflows, time tracking, monitoring views, reports, audit logs, documents, leave balances, holidays, and payroll-related features.
-- Debugged authentication, API, deployment, routing, and data consistency issues.
-- Improved mobile responsiveness, reliability, and usability through QA.
+Built with React, Node.js, Express, MongoDB & Firebase
 
-## Technology
+</p>
 
-`React` · `JavaScript` · `Tailwind CSS` · `Node.js` · `Express` · `MongoDB Atlas` · `Mongoose` · `Firebase` · `REST APIs` · `Vercel/Render`
+<p align="center">
 
-## Architecture overview
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase"/>
+<img src="https://img.shields.io/badge/Portfolio-Case%20Study-2563EB?style=for-the-badge"/>
 
-```text
-React client
-   │
-   ├── Firebase authentication
-   │
-   └── REST API calls
-          │
-          ▼
-Node.js / Express API
-   │
-   ├── Authentication and role guards
-   ├── Business workflow services
-   ├── Audit logging and reporting
-   └── MongoDB Atlas / Mongoose
+</p>
+
+---
+
+# 📖 Overview
+
+Prosper HRIS is an enterprise Human Resource Information System designed to centralize workforce operations into one modern web application.
+
+The platform streamlines employee management, attendance, monitoring, payroll, reporting, and internal administrative workflows while providing secure role-based access across multiple departments.
+
+This repository serves as a portfolio case study showcasing the overall architecture, engineering decisions, technologies, and my contributions while excluding proprietary source code.
+
+---
+
+# 📸 Application Preview
+
+## 🔐 Authentication
+
+![Login](screenshots/login.png)
+
+Secure role-based authentication with Firebase Authentication.
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+Centralized dashboard providing operational metrics and employee information.
+
+---
+
+## 👥 Employee Management
+
+![HR](screenshots/hr.png)
+
+Manage employee records, attendance, and leave requests.
+
+---
+
+## 📈 Monitoring
+
+![Monitoring](screenshots/monitoring.png)
+
+Track employee activity and operational insights.
+
+---
+
+## 💰 Accounting
+
+![Accounting](screenshots/accounting.png)
+
+Payroll processing and financial reporting.
+
+---
+
+# ✨ Core Features
+
+### 👥 HR Management
+
+- Employee Records
+- Attendance
+- Leave Management
+- Payroll
+- Documents
+
+---
+
+### 📊 Monitoring
+
+- Time Tracking
+- Performance Monitoring
+- Operational Reports
+- Productivity Insights
+
+---
+
+### 🔐 Authentication
+
+- Firebase Authentication
+
+- Role-Based Access Control
+
+- Protected Routes
+
+---
+
+### ⚙ Administration
+
+- User Management
+
+- Permissions
+
+- Audit Logs
+
+- System Settings
+
+---
+
+# 🏗 System Architecture
+
+<p align="center">
+
+<img src="assets/architecture.png">
+
+</p>
+
+```
+React Frontend
+        │
+        ▼
+Express REST API
+        │
+ ┌──────┴────────┐
+ ▼               ▼
+MongoDB      Firebase Auth
+        │
+        ▼
+Role-Based Authorization
 ```
 
-## Selected capabilities
+---
 
-- Role-based dashboards and protected routes
-- Employee and staff workflow management
-- Attendance and time tracking
-- Monitoring and operational summaries
-- Leave balances and holiday management
-- Payroll periods and reporting
-- Documents and expiration alerts
-- Audit logs and administrative controls
+# 💻 Technology Stack
 
-## My contribution
+| Layer | Technologies |
+|-------|--------------|
+| Frontend | React, Tailwind CSS |
+| Backend | Node.js, Express |
+| Database | MongoDB Atlas |
+| Authentication | Firebase Authentication |
+| API | REST |
+| Deployment | Render |
 
-I worked across the frontend, backend, authentication, database integration, QA, debugging, and deployment layers. My focus was turning operational requirements into usable features while maintaining clear access controls and dependable workflows.
+---
 
-## Screenshots
+# 👨‍💻 My Contributions
 
-Add only screenshots approved by the company and remove names, email addresses, IDs, financial information, and other private data before publishing.
+During development I was responsible for:
 
+✅ Designing enterprise dashboard interfaces
 
-## Source-code availability
+✅ Developing HRIS modules
 
-This project was completed in a professional company environment. The production source code, internal data, credentials, business rules, and company documents are not included because they are proprietary and confidential. This repository is a portfolio case study describing my contribution and the technical approach at a high level.
+✅ Implementing REST APIs
 
+✅ Firebase Authentication integration
 
-## Contact
+✅ MongoDB data modeling
 
-- Portfolio: https://jorgen-fosgate.jorgengilfosgate.workers.dev
-- GitHub: https://github.com/Zackirito14
-- LinkedIn: https://www.linkedin.com/in/jorgen-gil-fosgate-000a391b4/
+✅ Monitoring dashboard implementation
+
+✅ Payroll functionality
+
+✅ Bug fixes and maintenance
+
+✅ Performance optimization
+
+✅ Cross-team collaboration
+
+---
+
+# 🚧 Engineering Challenges
+
+Some technical challenges solved during development included:
+
+- Secure role-based authorization
+
+- Optimizing MongoDB queries
+
+- Designing scalable REST APIs
+
+- Improving dashboard responsiveness
+
+- Maintaining production stability
+
+---
+
+# 📁 Repository Structure
+
+```
+
+assets/
+screenshots/
+docs/
+README.md
+LICENSE
+
+```
+
+---
+
+# 🚀 Future Enhancements
+
+- AI Analytics Dashboard
+
+- Mobile Application
+
+- Push Notifications
+
+- Real-Time Monitoring
+
+- Advanced Business Intelligence
+
+---
+
+# 🔒 Confidentiality Notice
+
+This repository is presented strictly as a professional portfolio case study.
+
+The original proprietary source code, confidential business logic, credentials, and company assets have been intentionally excluded.
+
+Only documentation, screenshots, architecture, and project highlights are included.
+
+---
+
+# 📄 License
+
+MIT License
+
+---
+
+<p align="center">
+
+Built by **Jorgen Gil F. Fosgate**
+
+</p>
