@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071426"/>
+      <stop offset="52%" stop-color="#0B1D3A"/>
+      <stop offset="100%" stop-color="#21135A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="48%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#6EA8FF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+
+  <circle cx="1410" cy="60" r="220" fill="#5227C7" opacity="0.16" filter="url(#glow)"/>
+  <circle cx="1120" cy="450" r="230" fill="#087EA4" opacity="0.13" filter="url(#glow)"/>
+
+  <rect x="54" y="52" width="10" height="126" rx="5" fill="url(#accent)"/>
+  <text x="92" y="112" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#7DD3FC">PROSPER</text>
+  <text x="92" y="184" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#FFFFFF">HRIS &amp; Operations Dashboard</text>
+  <text x="92" y="233" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#B9C8E4">
+    Enterprise workforce operations, monitoring, reporting, and role-based workflows
+  </text>
+
+  <g transform="translate(92,290)">
+    <rect width="142" height="42" rx="21" fill="#0F2E49" stroke="#22D3EE" stroke-opacity="0.7"/>
+    <text x="71" y="27" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#DDF8FF">React</text>
+
+    <rect x="158" width="150" height="42" rx="21" fill="#123222" stroke="#4ADE80" stroke-opacity="0.7"/>
+    <text x="233" y="27" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#E0FFE9">Node.js</text>
+
+    <rect x="324" width="164" height="42" rx="21" fill="#143325" stroke="#34D399" stroke-opacity="0.7"/>
+    <text x="406" y="27" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#E4FFF1">MongoDB</text>
+
+    <rect x="504" width="164" height="42" rx="21" fill="#3B3015" stroke="#FBBF24" stroke-opacity="0.75"/>
+    <text x="586" y="27" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#FFF6D6">Firebase</text>
+
+    <rect x="684" width="168" height="42" rx="21" fill="#241A4B" stroke="#A78BFA" stroke-opacity="0.75"/>
+    <text x="768" y="27" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#F0EAFF">REST APIs</text>
+  </g>
+
+  <text x="92" y="397" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#8FA7C7">
+    Portfolio case study • Proprietary source code and company data excluded
+  </text>
+
+  <!-- Dashboard illustration -->
+  <g transform="translate(1010,86)">
+    <rect x="0" y="0" width="500" height="330" rx="24" fill="#081326" stroke="#3B82F6" stroke-width="2"/>
+    <rect x="24" y="24" width="452" height="46" rx="12" fill="#102340"/>
+    <circle cx="52" cy="47" r="8" fill="#22D3EE"/>
+    <rect x="74" y="39" width="142" height="16" rx="8" fill="#365579"/>
+    <rect x="342" y="37" width="104" height="20" rx="10" fill="#243F68"/>
+
+    <rect x="24" y="92" width="136" height="74" rx="14" fill="#0D2A46" stroke="#22D3EE" stroke-opacity="0.45"/>
+    <rect x="182" y="92" width="136" height="74" rx="14" fill="#182D55" stroke="#60A5FA" stroke-opacity="0.45"/>
+    <rect x="340" y="92" width="136" height="74" rx="14" fill="#241B57" stroke="#A78BFA" stroke-opacity="0.45"/>
+
+    <text x="44" y="122" font-family="Arial" font-size="14" fill="#8FB4D9">Employees</text>
+    <text x="44" y="150" font-family="Arial" font-size="28" font-weight="700" fill="#FFFFFF">33</text>
+    <text x="202" y="122" font-family="Arial" font-size="14" fill="#A7C5FF">Active</text>
+    <text x="202" y="150" font-family="Arial" font-size="28" font-weight="700" fill="#FFFFFF">31</text>
+    <text x="360" y="122" font-family="Arial" font-size="14" fill="#C6B5FF">Roles</text>
+    <text x="360" y="150" font-family="Arial" font-size="28" font-weight="700" fill="#FFFFFF">8</text>
+
+    <rect x="24" y="188" width="286" height="116" rx="14" fill="#0C1D36"/>
+    <polyline points="48,274 88,246 128,258 168,218 208,232 252,198 286,210"
+              fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="48" y1="282" x2="286" y2="282" stroke="#45607F" stroke-opacity="0.45"/>
+
+    <rect x="332" y="188" width="144" height="116" rx="14" fill="#0C1D36"/>
+    <circle cx="404" cy="246" r="38" fill="none" stroke="#172D4E" stroke-width="15"/>
+    <path d="M404 208 A38 38 0 0 1 436 266" fill="none" stroke="#8B5CF6" stroke-width="15" stroke-linecap="round"/>
+    <path d="M436 266 A38 38 0 0 1 378 276" fill="none" stroke="#22D3EE" stroke-width="15" stroke-linecap="round"/>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="518" rx="27" fill="none" stroke="#5575B8" stroke-opacity="0.35" stroke-width="2"/>
+</svg>
